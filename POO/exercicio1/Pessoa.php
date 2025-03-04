@@ -14,7 +14,7 @@ class Pessoa
         $this->diaNascimento = $diaNascimento;
         $this->mesNascimento = $mesNascimento;
         $this->anoNascimento = $anoNascimento;
-        $this->idade = 0; // Inicializa a idade como 0
+        $this->idade = 0;
     }
 
     public function calculaIdade($diaAtual, $mesAtual, $anoAtual)
