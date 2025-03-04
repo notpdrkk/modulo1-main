@@ -15,7 +15,7 @@ require_once "Balconista.php";
 
 $dono1 = new Humano ('Jair',69,'Rua Capitão Frederico Virmond, 222','22 9 9821 7254');
 $dono2 = new Humano ('Luiz',79,'Rua Marechal Floriano Peixono, 13','13 9 8872 9999');
-$dono3 = new Humano ('Eneias',83,'Avenida Manoel Ribas, 01','47 9 9985 2706');
+$dono3 = new Humano ('Enéias',83,'Avenida Manoel Ribas, 01','47 9 9985 2706');
 
 $animal1 = new Cachorro ('Carlinho','Bolso',4,2,'vermelho',5,'grande',$dono1);
 $animal2 = new Pombo ('Sergio','Honesto',2,2,'branco',1,'pequeno',$dono2, 'pouca', 'branco');

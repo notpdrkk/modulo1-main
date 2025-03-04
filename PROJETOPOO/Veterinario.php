@@ -12,6 +12,6 @@ class Veterinario extends Humano{
 
     public function exibirSalario(){
         
-        $this->salario = $salario;
+        return ($this-> salario);
      }
     }     

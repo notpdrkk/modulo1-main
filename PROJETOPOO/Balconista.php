@@ -12,7 +12,7 @@ class Balconista extends Humano{
 
     public function exibirSalario(){
         
-        return ($this-> salario -> $salario);
+        return ($this-> salario);
      }
 
 }

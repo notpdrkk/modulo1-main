@@ -14,5 +14,4 @@ class Vendedor extends Humano{
         
        return ($this-> salario);
     }
-
 }
