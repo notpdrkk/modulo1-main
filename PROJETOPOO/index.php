@@ -24,6 +24,7 @@ $animal3 = new Gato ('Ramiro','Meu Nome',3,2,'preto',0.75,'grande',$dono3);
 $funcionario1 = new Vendedor ('Maicon',25,'Rua Guaíra, 87', '42 9 9922 1221');
 $funcionario2 = new Balconista ('Claudia',32,'Rua Brigadeiro Rocha, 2322','42 9 8821 2141');
 $funcionario3 = new Veterinario ('Jean',28,'Rua Professor Becker, 21','42 9 9812 1231');
-
-
-
+$funcionario1->exibirSalario();
+print_r($funcionario1);
+print_r($funcionario2);
+print_r($funcionario3);

@@ -2,17 +2,17 @@
 
 require_once "Humano.php";
 class Vendedor extends Humano{
+
+    public string $cargo = 'Vendedor';
     public float $salario = 2000;
-    public function __construct($nome,$idade,$endereco,$contato,$salario){
-        parent::__construct($nome,$idade,$endereco,$contato);
-    }
     
-    public function Falar(){
-        return ("sou das venda");
+    public function __construct($nome,$idade,$endereco,$contato){
+        parent::__construct($nome,$idade,$endereco,$contato);
     }
 
     public function exibirSalario(){
-        return("Eu ganho R$" . $this->salario . " por mes");
+        
+       return ($this-> salario);
     }
 
 }
