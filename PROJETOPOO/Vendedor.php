@@ -15,7 +15,5 @@ class Vendedor extends Humano{
        return ($this-> salario);
     }
 
-    public function exibirNome(){
-        echo "O funcionário {$this->nome} fez tal coisa\n";
-    }
+
 }
