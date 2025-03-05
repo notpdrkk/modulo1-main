@@ -8,7 +8,7 @@ class Cachorro extends Animal{
     }
 
     public function Falar(){
-        return ("AuAu");
+        echo "Au Au!\n";
     }
 }
 

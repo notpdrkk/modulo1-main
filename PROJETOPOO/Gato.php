@@ -1,6 +1,7 @@
 <?php
 
 require_once "Animal.php";
+
 class Gato extends Animal{
     public function __construct($nome,$raca,$qtdPata,$qtdOlho,$cor,$peso,$tamanho,$dono)
     {
@@ -8,7 +9,7 @@ class Gato extends Animal{
     }
 
     public function Falar(){
-        return ("Miau");
+        echo "MIAU!\n";
     }
 }
 

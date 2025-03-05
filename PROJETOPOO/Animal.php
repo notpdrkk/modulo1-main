@@ -11,6 +11,7 @@ class Animal {
     public Humano $dono;
   
     public function __construct($nome,$raca,$qtdPata,$qtdOlho,$cor,$peso,$tamanho,$dono){
+        $this->nome = $nome;
         $this->raca = $raca;
         $this->qtdPata = $qtdPata;
         $this->qtdOlho = $qtdOlho;
