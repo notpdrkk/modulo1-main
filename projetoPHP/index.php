@@ -1,4 +1,7 @@
 <?php
+
+//bom dia moaca
+
 $vendas = [];
 $users = [
     [
