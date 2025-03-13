@@ -17,7 +17,6 @@ function login()
 {
     global $users;
     global $isLoggedIn;
-    global $escolhaMenu;
     global $primeiraescolha;
 
     echo " \n------------------------------\n";
